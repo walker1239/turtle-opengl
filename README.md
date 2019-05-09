@@ -9,13 +9,13 @@ Implementation of python turtle in Opengl c++
 ### Install glut(Ubuntu):
 
 	sudo apt install build-essential ubuntu-restricted-extras cimg-dev freeglut3-dev libgles2-mesa-dev
-  sudo apt install g++
-  sudo apt-get install freeglut3-dev
+  	sudo apt install g++
+  	sudo apt-get install freeglut3-dev
 
 ### Finally execute:
 
 	g++ main.cpp plano.cpp -o gl -lGL -lGLU -lglut
-  ./gl
+  	./gl
 
 ## Struct of the coordenadas
 ```c++
