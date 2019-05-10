@@ -1,0 +1,136 @@
+\hypertarget{classplano}{}\section{Referencia de la Clase plano}
+\label{classplano}\index{plano@{plano}}
+
+
+La clase plano tiene los elementos basicos para empezar a dibujar como se hace en la python turtle.  Definicion de la funciones usadas en la clase.  
+
+
+
+
+{\ttfamily \#include $<$plano.\+h$>$}
+
+\subsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classplano_a07a6173550219cbe2d32925afac542a5}{plano} (int width=500, int height=500)
+\item 
+void \hyperlink{classplano_a2febab8f233098b881ced3f4553526f2}{forward} (int cantidad)
+\item 
+void \hyperlink{classplano_ad5f11338792271b961051f7eff80c4cc}{left} (t\+\_\+coord grado)
+\item 
+void \hyperlink{classplano_a350bd814b14e4a876b601e608c4b7217}{right} (t\+\_\+coord grado)
+\item 
+void \hyperlink{classplano_a5758a4e96e2140941dd150e91e6029fd}{set\+\_\+color} (int R, int G, int B)
+\item 
+void \hyperlink{classplano_a48e4fbc9361ecaffe8a18545825ae19b}{penup} ()
+\item 
+void \hyperlink{classplano_aa2ae0a48000f85adfc61663ae7011aa2}{pendow} ()
+\item 
+void \hyperlink{classplano_a87e7fce6efc52d9b8c1e0c8946b1c2bb}{move} (t\+\_\+coord x, t\+\_\+coord y)
+\item 
+void \hyperlink{classplano_aa17e44a9925d265425e883f3bd8c1565}{display} (int argc, char $\ast$$\ast$argv)
+\end{DoxyCompactItemize}
+
+
+\subsection{Descripción detallada}
+La clase plano tiene los elementos basicos para empezar a dibujar como se hace en la python turtle.  Definicion de la funciones usadas en la clase. 
+
+\subsection{Documentación del constructor y destructor}
+\mbox{\Hypertarget{classplano_a07a6173550219cbe2d32925afac542a5}\label{classplano_a07a6173550219cbe2d32925afac542a5}} 
+\index{plano@{plano}!plano@{plano}}
+\index{plano@{plano}!plano@{plano}}
+\subsubsection{\texorpdfstring{plano()}{plano()}}
+{\footnotesize\ttfamily plano\+::plano (\begin{DoxyParamCaption}\item[{int}]{width = {\ttfamily 500},  }\item[{int}]{height = {\ttfamily 500} }\end{DoxyParamCaption})}
+
+Crear la turtle. por defecto se crea con w1=500 y h 
+\begin{DoxyParams}{Parámetros}
+{\em width,height} & coordinan el tamano del plano en el que se dibujara. \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Documentación de las funciones miembro}
+\mbox{\Hypertarget{classplano_aa17e44a9925d265425e883f3bd8c1565}\label{classplano_aa17e44a9925d265425e883f3bd8c1565}} 
+\index{plano@{plano}!display@{display}}
+\index{display@{display}!plano@{plano}}
+\subsubsection{\texorpdfstring{display()}{display()}}
+{\footnotesize\ttfamily void plano\+::display (\begin{DoxyParamCaption}\item[{int}]{argc,  }\item[{char $\ast$$\ast$}]{argv }\end{DoxyParamCaption})}
+
+Muestra la ventana. 
+\begin{DoxyParams}{Parámetros}
+{\em argc,argv} & es necesario para la funcion glutopem\+Gl. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classplano_a2febab8f233098b881ced3f4553526f2}\label{classplano_a2febab8f233098b881ced3f4553526f2}} 
+\index{plano@{plano}!forward@{forward}}
+\index{forward@{forward}!plano@{plano}}
+\subsubsection{\texorpdfstring{forward()}{forward()}}
+{\footnotesize\ttfamily void plano\+::forward (\begin{DoxyParamCaption}\item[{int}]{cantidad }\end{DoxyParamCaption})}
+
+Avanzar respecto al punto medio del plano. 
+\begin{DoxyParams}{Parámetros}
+{\em cantidad} & es la cantidad de pixeles que se avanzará. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classplano_ad5f11338792271b961051f7eff80c4cc}\label{classplano_ad5f11338792271b961051f7eff80c4cc}} 
+\index{plano@{plano}!left@{left}}
+\index{left@{left}!plano@{plano}}
+\subsubsection{\texorpdfstring{left()}{left()}}
+{\footnotesize\ttfamily void plano\+::left (\begin{DoxyParamCaption}\item[{t\+\_\+coord}]{grado }\end{DoxyParamCaption})}
+
+Gira a la izquierda los grados que reciba respecto al punto en el que estes. 
+\begin{DoxyParams}{Parámetros}
+{\em grado,es} & la cantidad que se girara. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classplano_a87e7fce6efc52d9b8c1e0c8946b1c2bb}\label{classplano_a87e7fce6efc52d9b8c1e0c8946b1c2bb}} 
+\index{plano@{plano}!move@{move}}
+\index{move@{move}!plano@{plano}}
+\subsubsection{\texorpdfstring{move()}{move()}}
+{\footnotesize\ttfamily void plano\+::move (\begin{DoxyParamCaption}\item[{t\+\_\+coord}]{x,  }\item[{t\+\_\+coord}]{y }\end{DoxyParamCaption})}
+
+Mueve la tortuga hace la coordenada (x, y). 
+\begin{DoxyParams}{Parámetros}
+{\em x,y} & funcionan como coordenadas. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classplano_aa2ae0a48000f85adfc61663ae7011aa2}\label{classplano_aa2ae0a48000f85adfc61663ae7011aa2}} 
+\index{plano@{plano}!pendow@{pendow}}
+\index{pendow@{pendow}!plano@{plano}}
+\subsubsection{\texorpdfstring{pendow()}{pendow()}}
+{\footnotesize\ttfamily void plano\+::pendow (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+La tortuga vuelve a pintar. \mbox{\Hypertarget{classplano_a48e4fbc9361ecaffe8a18545825ae19b}\label{classplano_a48e4fbc9361ecaffe8a18545825ae19b}} 
+\index{plano@{plano}!penup@{penup}}
+\index{penup@{penup}!plano@{plano}}
+\subsubsection{\texorpdfstring{penup()}{penup()}}
+{\footnotesize\ttfamily void plano\+::penup (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+La tortuga deja de pintar. \mbox{\Hypertarget{classplano_a350bd814b14e4a876b601e608c4b7217}\label{classplano_a350bd814b14e4a876b601e608c4b7217}} 
+\index{plano@{plano}!right@{right}}
+\index{right@{right}!plano@{plano}}
+\subsubsection{\texorpdfstring{right()}{right()}}
+{\footnotesize\ttfamily void plano\+::right (\begin{DoxyParamCaption}\item[{t\+\_\+coord}]{grado }\end{DoxyParamCaption})}
+
+Gira a la derecha los grados que reciba respecto al punto en el que estes. 
+\begin{DoxyParams}{Parámetros}
+{\em grado,es} & la cantidad que se girara. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classplano_a5758a4e96e2140941dd150e91e6029fd}\label{classplano_a5758a4e96e2140941dd150e91e6029fd}} 
+\index{plano@{plano}!set\+\_\+color@{set\+\_\+color}}
+\index{set\+\_\+color@{set\+\_\+color}!plano@{plano}}
+\subsubsection{\texorpdfstring{set\+\_\+color()}{set\_color()}}
+{\footnotesize\ttfamily void plano\+::set\+\_\+color (\begin{DoxyParamCaption}\item[{int}]{R,  }\item[{int}]{G,  }\item[{int}]{B }\end{DoxyParamCaption})}
+
+Define el color con el que se dibujara usa el formato R\+GB, que puede ir de 0-\/255. 
+\begin{DoxyParams}{Parámetros}
+{\em R,G,B} & inicializan el color de tipo R\+GB. \\
+\hline
+\end{DoxyParams}
+
+
+La documentación para esta clase fue generada a partir de los siguientes ficheros\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{plano_8h}{plano.\+h}\item 
+\hyperlink{plano_8cpp}{plano.\+cpp}\end{DoxyCompactItemize}

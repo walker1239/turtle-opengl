@@ -1,0 +1,60 @@
+\subsection*{Description}
+
+Implementation of python turtle in Opengl c++
+
+\subsection*{Compile}
+
+\subsubsection*{Install glut(\+Ubuntu)\+:}
+
+\begin{DoxyVerb}sudo apt install build-essential ubuntu-restricted-extras cimg-dev freeglut3-dev libgles2-mesa-dev
+sudo apt install g++
+sudo apt-get install freeglut3-dev
+\end{DoxyVerb}
+
+
+\subsubsection*{Finally execute\+:}
+
+\begin{DoxyVerb}g++ main.cpp plano.cpp -o gl -lGL -lGLU -lglut
+./gl
+\end{DoxyVerb}
+
+
+\#\# Struct of the coordenadas 
+\begin{DoxyCode}
+\{c++\}
+struct coordenada\{
+    t\_coord x,y;
+    int R,G,B;
+    t\_coord grados;
+\};
+\end{DoxyCode}
+
+
+\subsection*{Struct of the plano}
+
+
+\begin{DoxyCode}
+\{c++\}
+class plano\{
+    private:
+    coordenada pla;
+    t\_coord xini,yini;
+    int h,w;
+    \}
+\end{DoxyCode}
+ \subsection*{Rotate}
+
+
+\begin{DoxyItemize}
+\item Calculate new coordinates with\+: 
+\begin{DoxyCode}
+y = y + (tam * sin(grados));
+x = x + (tam * cos(grados));
+\end{DoxyCode}
+ \subsection*{Authors}
+\end{DoxyItemize}
+
+
+\begin{DoxyItemize}
+\item \href{https://github.com/walker1239}{\tt Walker Fernando Manrique Chalco} 
+\end{DoxyItemize}
