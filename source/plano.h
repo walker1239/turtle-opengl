@@ -10,8 +10,8 @@ El codigo esta estructurado para que se use como la tortuga original de python.
 el algoritmo usa calculos matematicos basicos. 
 
 */
-#ifndef plano
-#define plano
+#ifndef PLANO_H
+#define PLANO_H
 
 #include <GL/gl.h>
 #include <GL/glu.h>
@@ -93,4 +93,4 @@ class plano{
 
 };
 
-#endif
+#endif //PLANO_H
