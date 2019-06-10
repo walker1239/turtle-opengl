@@ -18,8 +18,13 @@ el algoritmo usa calculos matematicos basicos.
 #include <GL/glut.h>
 #include <stdio.h>
 #include <math.h>
+#include <string>
+using std::string;
+#include <sstream>
+//#include "foto.h"
+//#include "caretaker.h"
 
-#define PI 3.14159265358979323846
+#define PI 3.1415926535897932384626433832795
 typedef double t_coord; 
 
 struct coordenada{
@@ -45,6 +50,8 @@ class plano{
     private:
     coordenada pla;
     t_coord xini,yini;
+    //foto* Foto;
+    //caretaker* care;
     int h,w;
     public:
     /** Crear la turtle.
@@ -91,6 +98,9 @@ class plano{
  */
     void display(int argc, char **argv);
 
+/** Limpia la ventana con fondo negro.
+ */
+    void clear();
 };
 
 #endif //PLANO_H

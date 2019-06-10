@@ -10,6 +10,8 @@ plano::plano(int _w,int _h){
     yini=pla.y;
     w=_w;
     h=_h;
+    //Foto = new foto();
+    //care = new caretaker();
 }
 void plano::forward(int tam){
     glBegin(GL_LINES);
@@ -56,6 +58,22 @@ void plano::display(int argc, char **argv){
     glutCreateWindow("window1");
     glClear(GL_COLOR_BUFFER_BIT);
     gluOrtho2D(0,w-1,0,h-1);
-    set_color(pla.R,pla.G,pla.B);
-    
+    set_color(255,255,255);
+    const string w="a=arbol     f=flor     n=nieve     c=clear";
+    glRasterPos2d(300,450);
+    for (string::const_iterator ii = w.begin();ii != w.end();++ii){
+            glutBitmapCharacter(GLUT_BITMAP_9_BY_15,*ii);
+    }
+    glFlush();
+      
+}
+void plano::clear(){
+    set_color(255,255,255);
+    glClear(GL_COLOR_BUFFER_BIT);
+    const string w="a=arbol     f=flor     n=nieve     c=clear";
+    glRasterPos2d(300,450);
+    for (string::const_iterator ii = w.begin();ii != w.end();++ii){
+            glutBitmapCharacter(GLUT_BITMAP_9_BY_15,*ii);
+    }
+    glFlush();
 }
