@@ -63,14 +63,3 @@ int main(int argc, char **argv){
 	glutMainLoop();
 	return 0;
 }
-/*
-doxygen -g sample_text.conf
-
-doxygen sample_text.conf
-
-cd html
-
-google-chrome index.html
-
-g++ -g -Wall main.cpp plano.cpp flyweight_nieve.cpp builder_arbol.cpp factory_method_flor.cpp Abstract.cpp -lopengl32 -lglu32 -lfreeglut
-*/
