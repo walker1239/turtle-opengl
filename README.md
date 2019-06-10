@@ -12,10 +12,15 @@ Implementation of python turtle in Opengl c++
   	sudo apt install g++
   	sudo apt-get install freeglut3-dev
 
-### Finally execute:
+### Finally execute(Ubuntu):
 
-	g++ main.cpp plano.cpp -o gl -lGL -lGLU -lglut
+	g++ main.cpp plano.cpp flyweight_nieve.cpp builder_arbol.cpp factory_method_flor.cpp Abstract.cpp -o gl -lGL -lGLU -lglut
   	./gl
+
+### Finally execute(Windows):
+
+	g++ -g -Wall main.cpp plano.cpp flyweight_nieve.cpp builder_arbol.cpp factory_method_flor.cpp Abstract.cpp -lopengl32 -lglu32 -lfreeglut
+  	a.exe
 
 ## Struct of the coordenadas
 ```c++
