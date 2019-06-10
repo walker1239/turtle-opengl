@@ -1,0 +1,6 @@
+<map id="arbol_normal" name="arbol_normal">
+<area shape="rect" id="node2" href="$classbuilder.html" title="La clase builder contiene las funciones gettronco, gethojas, getramas para obtener las caracteristica..." alt="" coords="5,5,65,32"/>
+<area shape="rect" id="node3" href="$classrama.html" title="La clase rama contiene la funcion drawn para poder dibujará. &#160;Se instancia el dato miembro..." alt="" coords="90,5,141,32"/>
+<area shape="rect" id="node4" href="$classtronco.html" title="La clase tronco contiene la funcion drawn para poder dibujarlo &#160;Se instancia el dato miembro..." alt="" coords="165,5,223,32"/>
+<area shape="rect" id="node5" href="$classhoja.html" title="La clase hoja contiene la funcion drawn para poder dibujará &#160;Se instancia el dato miembro..." alt="" coords="248,5,295,32"/>
+</map>

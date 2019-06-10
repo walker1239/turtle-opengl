@@ -1,0 +1,71 @@
+\hypertarget{classbuilder}{}\section{Referencia de la Clase builder}
+\label{classbuilder}\index{builder@{builder}}
+
+
+La clase builder contiene las funciones gettronco, gethojas, getramas para obtener las caracteristicas del arbol en sus clases hijas  Las funciones son virtual-\/puras y apuntan a las clases de las partes del arbol.  
+
+
+
+
+{\ttfamily \#include $<$builder\+\_\+arbol.\+h$>$}
+
+
+
+Diagrama de herencias de builder
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=152pt]{classbuilder__inherit__graph}
+\end{center}
+\end{figure}
+\subsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+virtual \hyperlink{classtronco}{tronco} $\ast$ \hyperlink{classbuilder_af81e62bdfc53bbdad5f1d8edc4b46ecd}{gettronco} ()=0
+\item 
+virtual \hyperlink{classhoja}{hoja} $\ast$ \hyperlink{classbuilder_a03de42e8ec33a22c3635a6e946061b70}{gethojas} ()=0
+\item 
+virtual \hyperlink{classrama}{rama} $\ast$ \hyperlink{classbuilder_a7b811cc1a2cffe9f3601faab0d85627b}{getramas} ()=0
+\end{DoxyCompactItemize}
+
+
+\subsection{Descripción detallada}
+La clase builder contiene las funciones gettronco, gethojas, getramas para obtener las caracteristicas del arbol en sus clases hijas  Las funciones son virtual-\/puras y apuntan a las clases de las partes del arbol. 
+
+\subsection{Documentación de las funciones miembro}
+\mbox{\Hypertarget{classbuilder_a03de42e8ec33a22c3635a6e946061b70}\label{classbuilder_a03de42e8ec33a22c3635a6e946061b70}} 
+\index{builder@{builder}!gethojas@{gethojas}}
+\index{gethojas@{gethojas}!builder@{builder}}
+\subsubsection{\texorpdfstring{gethojas()}{gethojas()}}
+{\footnotesize\ttfamily virtual \hyperlink{classhoja}{hoja}$\ast$ builder\+::gethojas (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+La funcion gethojas es virtual pura para que pueda ser heredada, utilizada y sobrescrita por las demas clases. 
+
+Implementado en \hyperlink{classarbol__normal_a999f324b73ff973d4b5b49e2403c637b}{arbol\+\_\+normal}.
+
+\mbox{\Hypertarget{classbuilder_a7b811cc1a2cffe9f3601faab0d85627b}\label{classbuilder_a7b811cc1a2cffe9f3601faab0d85627b}} 
+\index{builder@{builder}!getramas@{getramas}}
+\index{getramas@{getramas}!builder@{builder}}
+\subsubsection{\texorpdfstring{getramas()}{getramas()}}
+{\footnotesize\ttfamily virtual \hyperlink{classrama}{rama}$\ast$ builder\+::getramas (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+La funcion getramas es virtual pura para que pueda ser heredada, utilizada y sobrescrita por las demas clases. 
+
+Implementado en \hyperlink{classarbol__normal_a34c202fa845954e82719d3e86a5a0d9e}{arbol\+\_\+normal}.
+
+\mbox{\Hypertarget{classbuilder_af81e62bdfc53bbdad5f1d8edc4b46ecd}\label{classbuilder_af81e62bdfc53bbdad5f1d8edc4b46ecd}} 
+\index{builder@{builder}!gettronco@{gettronco}}
+\index{gettronco@{gettronco}!builder@{builder}}
+\subsubsection{\texorpdfstring{gettronco()}{gettronco()}}
+{\footnotesize\ttfamily virtual \hyperlink{classtronco}{tronco}$\ast$ builder\+::gettronco (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+La funcion gettronco es virtual pura para que pueda ser heredada, utilizada y sobrescrita por las demas clases. 
+
+Implementado en \hyperlink{classarbol__normal_a24fdce164b50a74414b6a3d5ad4e99f6}{arbol\+\_\+normal}.
+
+
+
+La documentación para esta clase fue generada a partir del siguiente fichero\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{builder__arbol_8h}{builder\+\_\+arbol.\+h}\end{DoxyCompactItemize}

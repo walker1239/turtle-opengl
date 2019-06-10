@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Paint: Fichero Fuente flyweight_nieve.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Paint
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.13 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Buscar');
+  $(document).ready(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">flyweight_nieve.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="flyweight__nieve_8h.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor">#ifndef FLYWEIGHT_NIEVE_H</span></div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#define FLYWEIGHT_NIEVE_H</span></div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#include &lt;iostream&gt;</span></div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="plano_8h.html">plano.h</a>&quot;</span></div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#include &lt;stdlib.h&gt;</span>     <span class="comment">/* srand, rand */</span></div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#include &lt;time.h&gt;</span>      </div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">#include &lt;vector&gt;</span> </div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="keyword">using namespace </span><a class="code" href="namespacestd.html">std</a>;</div><div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="classsnow__flyweight.html">   29</a></span>&#160;<span class="keyword">class </span><a class="code" href="classsnow__flyweight.html">snow_flyweight</a></div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;{</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="keyword">private</span>:</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <span class="keywordtype">int</span> tam;</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <a class="code" href="classsnow__flyweight.html">snow_flyweight</a>();</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    </div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="keyword">public</span>:</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="keyword">static</span> <a class="code" href="classsnow__flyweight.html">snow_flyweight</a>* instance;</div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keyword">static</span> <a class="code" href="classsnow__flyweight.html">snow_flyweight</a>* get_instance();</div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <span class="keywordtype">void</span> set_tam(<span class="keywordtype">int</span> _tam);</div><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="keywordtype">int</span> get_tam();</div><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    </div><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;};</div><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;</div><div class="line"><a name="l00058"></a><span class="lineno"><a class="line" href="classparticles.html">   58</a></span>&#160;<span class="keyword">class </span><a class="code" href="classparticles.html">particles</a></div><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;{</div><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="keyword">private</span>:</div><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <span class="keywordtype">int</span> tam;</div><div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <a class="code" href="classsnow__flyweight.html">snow_flyweight</a> *snow;</div><div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <span class="keywordtype">int</span> x,y;</div><div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;<span class="keyword">public</span>:</div><div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    <a class="code" href="classparticles.html">particles</a>(<span class="keywordtype">int</span> _tam);</div><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    ~<a class="code" href="classparticles.html">particles</a>();</div><div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    <span class="keywordtype">void</span> set_tam(<span class="keywordtype">int</span> tam);</div><div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    <span class="keywordtype">void</span> set_x_y(<span class="keywordtype">int</span> _x,<span class="keywordtype">int</span> _y);</div><div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    <span class="keywordtype">void</span> drawn(<a class="code" href="classplano.html">plano</a> p);</div><div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    </div><div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;};</div><div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;</div><div class="line"><a name="l00092"></a><span class="lineno"><a class="line" href="classnieve.html">   92</a></span>&#160;<span class="keyword">class </span><a class="code" href="classnieve.html">nieve</a> </div><div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;{</div><div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;<span class="keyword">private</span>:</div><div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    <span class="keywordtype">int</span> cant;</div><div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    <span class="keywordtype">int</span> gravedad;</div><div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    vector&lt;particles&gt; v;</div><div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;<span class="keyword">public</span>:</div><div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    <a class="code" href="classnieve.html">nieve</a>(<span class="keywordtype">int</span> cantidad=3,<span class="keywordtype">int</span> tam=5);</div><div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    ~<a class="code" href="classnieve.html">nieve</a>();</div><div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;    <span class="keywordtype">void</span> drawn(<a class="code" href="classplano.html">plano</a> p);</div><div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    <span class="keywordtype">void</span> set_cantidad(<span class="keywordtype">int</span> _cant);</div><div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;    <span class="keywordtype">void</span> add_copo(<span class="keywordtype">int</span> tam);</div><div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;};</div><div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;</div><div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;<span class="preprocessor">#endif</span></div><div class="ttc" id="classsnow__flyweight_html"><div class="ttname"><a href="classsnow__flyweight.html">snow_flyweight</a></div><div class="ttdoc">La clase snow_flyweight es el singleton que dibuja la nieve.  Se instancia el dato miembro...</div><div class="ttdef"><b>Definition:</b> flyweight_nieve.h:29</div></div>
+<div class="ttc" id="plano_8h_html"><div class="ttname"><a href="plano_8h.html">plano.h</a></div><div class="ttdoc">implementacion de clase plano que permite hacer dibujos usando openGL. </div></div>
+<div class="ttc" id="classparticles_html"><div class="ttname"><a href="classparticles.html">particles</a></div><div class="ttdoc">La clase particles es la calse que dibuja solo una particula.  Se instancia el dato miembro...</div><div class="ttdef"><b>Definition:</b> flyweight_nieve.h:58</div></div>
+<div class="ttc" id="namespacestd_html"><div class="ttname"><a href="namespacestd.html">std</a></div></div>
+<div class="ttc" id="classplano_html"><div class="ttname"><a href="classplano.html">plano</a></div><div class="ttdoc">La clase plano tiene los elementos basicos para empezar a dibujar como se hace en la python turtle...</div><div class="ttdef"><b>Definition:</b> plano.h:49</div></div>
+<div class="ttc" id="classnieve_html"><div class="ttname"><a href="classnieve.html">nieve</a></div><div class="ttdoc">La clase nieve es la clase que crea las particulas de nieve.  Se instancia el dato miembro...</div><div class="ttdef"><b>Definition:</b> flyweight_nieve.h:92</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado por &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.13
+</small></address>
+</body>
+</html>

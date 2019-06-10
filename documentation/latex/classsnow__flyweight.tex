@@ -1,0 +1,74 @@
+\hypertarget{classsnow__flyweight}{}\section{Referencia de la Clase snow\+\_\+flyweight}
+\label{classsnow__flyweight}\index{snow\+\_\+flyweight@{snow\+\_\+flyweight}}
+
+
+La clase \hyperlink{classsnow__flyweight}{snow\+\_\+flyweight} es el singleton que dibuja la nieve.  Se instancia el dato miembro.  
+
+
+
+
+{\ttfamily \#include $<$flyweight\+\_\+nieve.\+h$>$}
+
+
+
+Diagrama de colaboración para snow\+\_\+flyweight\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=222pt]{classsnow__flyweight__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classsnow__flyweight_aaf41210615d014dbd8d679cc7a48003e}{set\+\_\+tam} (int \+\_\+tam)
+\item 
+int \hyperlink{classsnow__flyweight_a64f410373e401b52629c93bf917b4b41}{get\+\_\+tam} ()
+\end{DoxyCompactItemize}
+\subsection*{Métodos públicos estáticos}
+\begin{DoxyCompactItemize}
+\item 
+static \hyperlink{classsnow__flyweight}{snow\+\_\+flyweight} $\ast$ \hyperlink{classsnow__flyweight_a6035abfd67cce3ff166a5c9fc00e286c}{get\+\_\+instance} ()
+\end{DoxyCompactItemize}
+\subsection*{Atributos públicos estáticos}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classsnow__flyweight_a88b4b4efea791663431768a955ef36f6}\label{classsnow__flyweight_a88b4b4efea791663431768a955ef36f6}} 
+static \hyperlink{classsnow__flyweight}{snow\+\_\+flyweight} $\ast$ {\bfseries instance} =0
+\end{DoxyCompactItemize}
+
+
+\subsection{Descripción detallada}
+La clase \hyperlink{classsnow__flyweight}{snow\+\_\+flyweight} es el singleton que dibuja la nieve.  Se instancia el dato miembro. 
+
+\subsection{Documentación de las funciones miembro}
+\mbox{\Hypertarget{classsnow__flyweight_a6035abfd67cce3ff166a5c9fc00e286c}\label{classsnow__flyweight_a6035abfd67cce3ff166a5c9fc00e286c}} 
+\index{snow\+\_\+flyweight@{snow\+\_\+flyweight}!get\+\_\+instance@{get\+\_\+instance}}
+\index{get\+\_\+instance@{get\+\_\+instance}!snow\+\_\+flyweight@{snow\+\_\+flyweight}}
+\subsubsection{\texorpdfstring{get\+\_\+instance()}{get\_instance()}}
+{\footnotesize\ttfamily \hyperlink{classsnow__flyweight}{snow\+\_\+flyweight} $\ast$ snow\+\_\+flyweight\+::get\+\_\+instance (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+La funcion get\+\_\+instance devuelve la nieve en singleton. \mbox{\Hypertarget{classsnow__flyweight_a64f410373e401b52629c93bf917b4b41}\label{classsnow__flyweight_a64f410373e401b52629c93bf917b4b41}} 
+\index{snow\+\_\+flyweight@{snow\+\_\+flyweight}!get\+\_\+tam@{get\+\_\+tam}}
+\index{get\+\_\+tam@{get\+\_\+tam}!snow\+\_\+flyweight@{snow\+\_\+flyweight}}
+\subsubsection{\texorpdfstring{get\+\_\+tam()}{get\_tam()}}
+{\footnotesize\ttfamily int snow\+\_\+flyweight\+::get\+\_\+tam (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+La funcion get\+\_\+tam devuelve el tamaño de la nieve. \mbox{\Hypertarget{classsnow__flyweight_aaf41210615d014dbd8d679cc7a48003e}\label{classsnow__flyweight_aaf41210615d014dbd8d679cc7a48003e}} 
+\index{snow\+\_\+flyweight@{snow\+\_\+flyweight}!set\+\_\+tam@{set\+\_\+tam}}
+\index{set\+\_\+tam@{set\+\_\+tam}!snow\+\_\+flyweight@{snow\+\_\+flyweight}}
+\subsubsection{\texorpdfstring{set\+\_\+tam()}{set\_tam()}}
+{\footnotesize\ttfamily void snow\+\_\+flyweight\+::set\+\_\+tam (\begin{DoxyParamCaption}\item[{int}]{\+\_\+tam }\end{DoxyParamCaption})}
+
+La funcion set\+\_\+tam le da un tamaño a la nieve. 
+\begin{DoxyParams}{Parámetros}
+{\em \+\_\+tam} & es el tamño que le das a la nieve \\
+\hline
+\end{DoxyParams}
+
+
+La documentación para esta clase fue generada a partir de los siguientes ficheros\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{flyweight__nieve_8h}{flyweight\+\_\+nieve.\+h}\item 
+\hyperlink{flyweight__nieve_8cpp}{flyweight\+\_\+nieve.\+cpp}\end{DoxyCompactItemize}

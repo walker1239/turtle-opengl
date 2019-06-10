@@ -1,0 +1,64 @@
+\hypertarget{classdirector}{}\section{Referencia de la Clase director}
+\label{classdirector}\index{director@{director}}
+
+
+La clase director es la que crea mediante el builder o mediante parametros.  
+
+
+
+
+{\ttfamily \#include $<$builder\+\_\+arbol.\+h$>$}
+
+\subsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classdirector_aa9381a46c45a3d6dce30e42e839b90b0}{setbuilder} (\hyperlink{classbuilder}{builder} $\ast$newbuilder)
+\item 
+\hyperlink{classarbol}{arbol} $\ast$ \hyperlink{classdirector_a0b674bd34130fdad9fabfc432efb09e4}{getbuilder} (int troncos, int hojas, int ramas)
+\item 
+\hyperlink{classarbol}{arbol} $\ast$ \hyperlink{classdirector_a9c548cff23b93ce5951318caacef264b}{getarbol} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Descripción detallada}
+La clase director es la que crea mediante el builder o mediante parametros. 
+
+\subsection{Documentación de las funciones miembro}
+\mbox{\Hypertarget{classdirector_a9c548cff23b93ce5951318caacef264b}\label{classdirector_a9c548cff23b93ce5951318caacef264b}} 
+\index{director@{director}!getarbol@{getarbol}}
+\index{getarbol@{getarbol}!director@{director}}
+\subsubsection{\texorpdfstring{getarbol()}{getarbol()}}
+{\footnotesize\ttfamily \hyperlink{classarbol}{arbol} $\ast$ director\+::getarbol (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+La funcion getarbol es la que nos devuelve el arbol creado. \mbox{\Hypertarget{classdirector_a0b674bd34130fdad9fabfc432efb09e4}\label{classdirector_a0b674bd34130fdad9fabfc432efb09e4}} 
+\index{director@{director}!getbuilder@{getbuilder}}
+\index{getbuilder@{getbuilder}!director@{director}}
+\subsubsection{\texorpdfstring{getbuilder()}{getbuilder()}}
+{\footnotesize\ttfamily \hyperlink{classarbol}{arbol} $\ast$ director\+::getbuilder (\begin{DoxyParamCaption}\item[{int}]{troncos,  }\item[{int}]{hojas,  }\item[{int}]{ramas }\end{DoxyParamCaption})}
+
+La funcion getbuilder recibe el tamaño de troncos, hojas, ramas, para crear el arbol. 
+\begin{DoxyParams}{Parámetros}
+{\em troncos} & es el tamaño del tronco. \\
+\hline
+{\em hojas} & es el tamaño de las hojas. \\
+\hline
+{\em ramas} & es el tamaño de las ramas. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classdirector_aa9381a46c45a3d6dce30e42e839b90b0}\label{classdirector_aa9381a46c45a3d6dce30e42e839b90b0}} 
+\index{director@{director}!setbuilder@{setbuilder}}
+\index{setbuilder@{setbuilder}!director@{director}}
+\subsubsection{\texorpdfstring{setbuilder()}{setbuilder()}}
+{\footnotesize\ttfamily void director\+::setbuilder (\begin{DoxyParamCaption}\item[{\hyperlink{classbuilder}{builder} $\ast$}]{newbuilder }\end{DoxyParamCaption})}
+
+La funcion setbuilder declara el builder que posteriormente el director devolvera. 
+\begin{DoxyParams}{Parámetros}
+{\em newbuilder} & es un builder definido antes que posteriormente se devolvera como un arbol. \\
+\hline
+\end{DoxyParams}
+
+
+La documentación para esta clase fue generada a partir de los siguientes ficheros\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{builder__arbol_8h}{builder\+\_\+arbol.\+h}\item 
+\hyperlink{builder__arbol_8cpp}{builder\+\_\+arbol.\+cpp}\end{DoxyCompactItemize}

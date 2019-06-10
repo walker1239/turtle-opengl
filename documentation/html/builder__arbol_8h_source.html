@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Paint: Fichero Fuente builder_arbol.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Paint
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.13 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Buscar');
+  $(document).ready(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">builder_arbol.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="builder__arbol_8h.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">#ifndef BUILDER_ARBOL_H</span></div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor">#define BUILDER_ARBOL_H</span></div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#include &lt;iostream&gt;</span></div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#include &lt;string&gt;</span></div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="plano_8h.html">plano.h</a>&quot;</span></div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div><div class="line"><a name="l00027"></a><span class="lineno"><a class="line" href="classtronco.html">   27</a></span>&#160;<span class="keyword">class </span><a class="code" href="classtronco.html">tronco</a>{</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="keyword">public</span>:</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <span class="keywordtype">int</span> size;</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classtronco.html#a8994db3bd2b43773f71311f2e0146e44">drawn</a>(<a class="code" href="classplano.html">plano</a> p,<span class="keywordtype">int</span> x, <span class="keywordtype">int</span> y);</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;};</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div><div class="line"><a name="l00043"></a><span class="lineno"><a class="line" href="classhoja.html">   43</a></span>&#160;<span class="keyword">class </span><a class="code" href="classhoja.html">hoja</a>{</div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="keyword">public</span>:</div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <span class="keywordtype">int</span> size;</div><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classtronco.html#a8994db3bd2b43773f71311f2e0146e44">drawn</a>(<a class="code" href="classplano.html">plano</a> p,<span class="keywordtype">int</span> x, <span class="keywordtype">int</span> y);</div><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;};</div><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;</div><div class="line"><a name="l00059"></a><span class="lineno"><a class="line" href="classrama.html">   59</a></span>&#160;<span class="keyword">class </span><a class="code" href="classrama.html">rama</a>{</div><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="keyword">public</span>:</div><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <span class="keywordtype">int</span> size;</div><div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classtronco.html#a8994db3bd2b43773f71311f2e0146e44">drawn</a>(<a class="code" href="classplano.html">plano</a> p,<span class="keywordtype">int</span> x, <span class="keywordtype">int</span> y);</div><div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;};</div><div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;</div><div class="line"><a name="l00075"></a><span class="lineno"><a class="line" href="classarbol.html">   75</a></span>&#160;<span class="keyword">class </span><a class="code" href="classarbol.html">arbol</a>{</div><div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;<span class="keyword">public</span>:</div><div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <a class="code" href="classtronco.html">tronco</a>*   troncos;</div><div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    <a class="code" href="classhoja.html">hoja</a>* hojas;</div><div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    <a class="code" href="classrama.html">rama</a>*   ramas;</div><div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classtronco.html#a8994db3bd2b43773f71311f2e0146e44">drawn</a>(<a class="code" href="classplano.html">plano</a> p,<span class="keywordtype">int</span> x, <span class="keywordtype">int</span> y);</div><div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;};</div><div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;</div><div class="line"><a name="l00093"></a><span class="lineno"><a class="line" href="classbuilder.html">   93</a></span>&#160;<span class="keyword">class </span><a class="code" href="classbuilder.html">builder</a>{</div><div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;<span class="keyword">public</span>:</div><div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    <span class="keyword">virtual</span> <a class="code" href="classtronco.html">tronco</a>* gettronco() = 0;</div><div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    <span class="keyword">virtual</span> <a class="code" href="classhoja.html">hoja</a>* gethojas() = 0;</div><div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    <span class="keyword">virtual</span> <a class="code" href="classrama.html">rama</a>* getramas() = 0;</div><div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;};</div><div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;</div><div class="line"><a name="l00111"></a><span class="lineno"><a class="line" href="classarbol__normal.html">  111</a></span>&#160;<span class="keyword">class </span><a class="code" href="classarbol__normal.html">arbol_normal</a> : <span class="keyword">public</span> <a class="code" href="classbuilder.html">builder</a>{</div><div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;</div><div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;<span class="keyword">public</span>:</div><div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    <a class="code" href="classtronco.html">tronco</a>* troncos;</div><div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;    <a class="code" href="classhoja.html">hoja</a>* hojas;</div><div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    <a class="code" href="classrama.html">rama</a>* ramas;</div><div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;    <span class="keywordtype">void</span> settronco(<span class="keywordtype">int</span> size);</div><div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;    <span class="keywordtype">void</span> sethojas(<span class="keywordtype">int</span> size);</div><div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;    <span class="keywordtype">void</span> setramas(<span class="keywordtype">int</span> size);</div><div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;    <a class="code" href="classtronco.html">tronco</a>* gettronco();</div><div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;    <a class="code" href="classhoja.html">hoja</a>* gethojas();</div><div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;    <a class="code" href="classrama.html">rama</a>* getramas();</div><div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;};</div><div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;</div><div class="line"><a name="l00144"></a><span class="lineno"><a class="line" href="classdirector.html">  144</a></span>&#160;<span class="keyword">class </span><a class="code" href="classdirector.html">director</a>{</div><div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;<span class="keyword">private</span>:</div><div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;    <a class="code" href="classbuilder.html">builder</a>* _builder;</div><div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;</div><div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;<span class="keyword">public</span>:</div><div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;    <span class="keywordtype">void</span> setbuilder(<a class="code" href="classbuilder.html">builder</a>* newbuilder);</div><div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;    <a class="code" href="classarbol.html">arbol</a>* getbuilder(<span class="keywordtype">int</span> troncos, <span class="keywordtype">int</span> hojas, <span class="keywordtype">int</span> ramas);</div><div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;    <a class="code" href="classarbol.html">arbol</a>* getarbol();</div><div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;};</div><div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;</div><div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;</div><div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;<span class="preprocessor">#endif // BUILDER_ARBOL_H</span></div><div class="ttc" id="plano_8h_html"><div class="ttname"><a href="plano_8h.html">plano.h</a></div><div class="ttdoc">implementacion de clase plano que permite hacer dibujos usando openGL. </div></div>
+<div class="ttc" id="classarbol_html"><div class="ttname"><a href="classarbol.html">arbol</a></div><div class="ttdoc">La clase arbol contiene la funcion drawn para visualizar el arbol  Se instancia los datos miembros qu...</div><div class="ttdef"><b>Definition:</b> builder_arbol.h:75</div></div>
+<div class="ttc" id="classtronco_html"><div class="ttname"><a href="classtronco.html">tronco</a></div><div class="ttdoc">La clase tronco contiene la funcion drawn para poder dibujarlo  Se instancia el dato miembro...</div><div class="ttdef"><b>Definition:</b> builder_arbol.h:27</div></div>
+<div class="ttc" id="classbuilder_html"><div class="ttname"><a href="classbuilder.html">builder</a></div><div class="ttdoc">La clase builder contiene las funciones gettronco, gethojas, getramas para obtener las caracteristica...</div><div class="ttdef"><b>Definition:</b> builder_arbol.h:93</div></div>
+<div class="ttc" id="classdirector_html"><div class="ttname"><a href="classdirector.html">director</a></div><div class="ttdoc">La clase director es la que crea mediante el builder o mediante parametros. </div><div class="ttdef"><b>Definition:</b> builder_arbol.h:144</div></div>
+<div class="ttc" id="classhoja_html"><div class="ttname"><a href="classhoja.html">hoja</a></div><div class="ttdoc">La clase hoja contiene la funcion drawn para poder dibujará  Se instancia el dato miembro...</div><div class="ttdef"><b>Definition:</b> builder_arbol.h:43</div></div>
+<div class="ttc" id="classrama_html"><div class="ttname"><a href="classrama.html">rama</a></div><div class="ttdoc">La clase rama contiene la funcion drawn para poder dibujará.  Se instancia el dato miembro...</div><div class="ttdef"><b>Definition:</b> builder_arbol.h:59</div></div>
+<div class="ttc" id="classarbol__normal_html"><div class="ttname"><a href="classarbol__normal.html">arbol_normal</a></div><div class="ttdoc">La clase arbol_normal hereda del arbol, estes es un arbol normal y unico. Tambien puede ser modificad...</div><div class="ttdef"><b>Definition:</b> builder_arbol.h:111</div></div>
+<div class="ttc" id="classtronco_html_a8994db3bd2b43773f71311f2e0146e44"><div class="ttname"><a href="classtronco.html#a8994db3bd2b43773f71311f2e0146e44">tronco::drawn</a></div><div class="ttdeci">void drawn(plano p, int x, int y)</div><div class="ttdef"><b>Definition:</b> builder_arbol.cpp:9</div></div>
+<div class="ttc" id="classplano_html"><div class="ttname"><a href="classplano.html">plano</a></div><div class="ttdoc">La clase plano tiene los elementos basicos para empezar a dibujar como se hace en la python turtle...</div><div class="ttdef"><b>Definition:</b> plano.h:49</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado por &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.13
+</small></address>
+</body>
+</html>

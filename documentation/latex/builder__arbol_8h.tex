@@ -1,0 +1,54 @@
+\hypertarget{builder__arbol_8h}{}\section{Referencia del Archivo builder\+\_\+arbol.\+h}
+\label{builder__arbol_8h}\index{builder\+\_\+arbol.\+h@{builder\+\_\+arbol.\+h}}
+
+
+implementacion de la clase arbol para la creacion de arboles en Glut Open\+GL  
+
+
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$string$>$}\newline
+{\ttfamily \#include \char`\"{}plano.\+h\char`\"{}}\newline
+Dependencia gráfica adjunta para builder\+\_\+arbol.\+h\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{builder__arbol_8h__incl}
+\end{center}
+\end{figure}
+Gráfico de los archivos que directa o indirectamente incluyen a este archivo\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=255pt]{builder__arbol_8h__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{Clases}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{classtronco}{tronco}
+\begin{DoxyCompactList}\small\item\em La clase tronco contiene la funcion drawn para poder dibujarlo  Se instancia el dato miembro. \end{DoxyCompactList}\item 
+class \hyperlink{classhoja}{hoja}
+\begin{DoxyCompactList}\small\item\em La clase hoja contiene la funcion drawn para poder dibujará  Se instancia el dato miembro. \end{DoxyCompactList}\item 
+class \hyperlink{classrama}{rama}
+\begin{DoxyCompactList}\small\item\em La clase rama contiene la funcion drawn para poder dibujará.  Se instancia el dato miembro. \end{DoxyCompactList}\item 
+class \hyperlink{classarbol}{arbol}
+\begin{DoxyCompactList}\small\item\em La clase arbol contiene la funcion drawn para visualizar el arbol  Se instancia los datos miembros que son punteros a las partes del arbol. \end{DoxyCompactList}\item 
+class \hyperlink{classbuilder}{builder}
+\begin{DoxyCompactList}\small\item\em La clase builder contiene las funciones gettronco, gethojas, getramas para obtener las caracteristicas del arbol en sus clases hijas  Las funciones son virtual-\/puras y apuntan a las clases de las partes del arbol. \end{DoxyCompactList}\item 
+class \hyperlink{classarbol__normal}{arbol\+\_\+normal}
+\begin{DoxyCompactList}\small\item\em La clase \hyperlink{classarbol__normal}{arbol\+\_\+normal} hereda del arbol, estes es un arbol normal y unico. Tambien puede ser modificado.  Las funciones apuntan a las clases de las partes del arbol, asi como tambien son void. \end{DoxyCompactList}\item 
+class \hyperlink{classdirector}{director}
+\begin{DoxyCompactList}\small\item\em La clase director es la que crea mediante el builder o mediante parametros. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Descripción detallada}
+implementacion de la clase arbol para la creacion de arboles en Glut Open\+GL 
+
+\begin{DoxyAuthor}{Autor}
+Walker Manrique 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Versión}
+Revision 1.\+1 
+\end{DoxyVersion}

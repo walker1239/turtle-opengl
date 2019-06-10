@@ -1,0 +1,91 @@
+\hypertarget{classnieve}{}\section{Referencia de la Clase nieve}
+\label{classnieve}\index{nieve@{nieve}}
+
+
+La clase nieve es la clase que crea las particulas de nieve.  Se instancia el dato miembro.  
+
+
+
+
+{\ttfamily \#include $<$flyweight\+\_\+nieve.\+h$>$}
+
+\subsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classnieve_acb9180479e9ef3330c9794a4fb69831a}{nieve} (int cantidad=3, int tam=5)
+\item 
+\hyperlink{classnieve_a554baea3727dc5650c5e8cec2f765e24}{$\sim$nieve} ()
+\item 
+void \hyperlink{classnieve_a0b49a0d373b8d3129fa11137ff6ce3e4}{drawn} (\hyperlink{classplano}{plano} p)
+\item 
+void \hyperlink{classnieve_a447ff743623611b1dd3bfe617e40d52e}{set\+\_\+cantidad} (int \+\_\+cant)
+\item 
+void \hyperlink{classnieve_a61ec704dc78cefdb6da47a8d24c59646}{add\+\_\+copo} (int tam)
+\end{DoxyCompactItemize}
+
+
+\subsection{Descripción detallada}
+La clase nieve es la clase que crea las particulas de nieve.  Se instancia el dato miembro. 
+
+\subsection{Documentación del constructor y destructor}
+\mbox{\Hypertarget{classnieve_acb9180479e9ef3330c9794a4fb69831a}\label{classnieve_acb9180479e9ef3330c9794a4fb69831a}} 
+\index{nieve@{nieve}!nieve@{nieve}}
+\index{nieve@{nieve}!nieve@{nieve}}
+\subsubsection{\texorpdfstring{nieve()}{nieve()}}
+{\footnotesize\ttfamily nieve\+::nieve (\begin{DoxyParamCaption}\item[{int}]{cantidad = {\ttfamily 3},  }\item[{int}]{tam = {\ttfamily 5} }\end{DoxyParamCaption})}
+
+Constructor. 
+\begin{DoxyParams}{Parámetros}
+{\em tam} & es el tamaño de cada copo de nieve. \\
+\hline
+{\em cantidad} & es la cantidad de nieve que sera creada. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classnieve_a554baea3727dc5650c5e8cec2f765e24}\label{classnieve_a554baea3727dc5650c5e8cec2f765e24}} 
+\index{nieve@{nieve}!````~nieve@{$\sim$nieve}}
+\index{````~nieve@{$\sim$nieve}!nieve@{nieve}}
+\subsubsection{\texorpdfstring{$\sim$nieve()}{~nieve()}}
+{\footnotesize\ttfamily nieve\+::$\sim$nieve (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Destructor. 
+
+\subsection{Documentación de las funciones miembro}
+\mbox{\Hypertarget{classnieve_a61ec704dc78cefdb6da47a8d24c59646}\label{classnieve_a61ec704dc78cefdb6da47a8d24c59646}} 
+\index{nieve@{nieve}!add\+\_\+copo@{add\+\_\+copo}}
+\index{add\+\_\+copo@{add\+\_\+copo}!nieve@{nieve}}
+\subsubsection{\texorpdfstring{add\+\_\+copo()}{add\_copo()}}
+{\footnotesize\ttfamily void nieve\+::add\+\_\+copo (\begin{DoxyParamCaption}\item[{int}]{tam }\end{DoxyParamCaption})}
+
+La funcion add\+\_\+copo añade un copo al vector de copos de nieve. 
+\begin{DoxyParams}{Parámetros}
+{\em tam} & es el tamaño de la punta del copo. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classnieve_a0b49a0d373b8d3129fa11137ff6ce3e4}\label{classnieve_a0b49a0d373b8d3129fa11137ff6ce3e4}} 
+\index{nieve@{nieve}!drawn@{drawn}}
+\index{drawn@{drawn}!nieve@{nieve}}
+\subsubsection{\texorpdfstring{drawn()}{drawn()}}
+{\footnotesize\ttfamily void nieve\+::drawn (\begin{DoxyParamCaption}\item[{\hyperlink{classplano}{plano}}]{p }\end{DoxyParamCaption})}
+
+La funcion draw dibuja recibiento el plano en el que dibujar toda la nieve, en coordenadas aleatorias. 
+\begin{DoxyParams}{Parámetros}
+{\em p} & es el plano en el que se dibujara. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classnieve_a447ff743623611b1dd3bfe617e40d52e}\label{classnieve_a447ff743623611b1dd3bfe617e40d52e}} 
+\index{nieve@{nieve}!set\+\_\+cantidad@{set\+\_\+cantidad}}
+\index{set\+\_\+cantidad@{set\+\_\+cantidad}!nieve@{nieve}}
+\subsubsection{\texorpdfstring{set\+\_\+cantidad()}{set\_cantidad()}}
+{\footnotesize\ttfamily void nieve\+::set\+\_\+cantidad (\begin{DoxyParamCaption}\item[{int}]{\+\_\+cant }\end{DoxyParamCaption})}
+
+La funcion set\+\_\+cantidad define la cantidad de copos de nieve que habra en el plano. 
+\begin{DoxyParams}{Parámetros}
+{\em \+\_\+cant} & la cantidad de copos de nieve. \\
+\hline
+\end{DoxyParams}
+
+
+La documentación para esta clase fue generada a partir de los siguientes ficheros\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{flyweight__nieve_8h}{flyweight\+\_\+nieve.\+h}\item 
+\hyperlink{flyweight__nieve_8cpp}{flyweight\+\_\+nieve.\+cpp}\end{DoxyCompactItemize}

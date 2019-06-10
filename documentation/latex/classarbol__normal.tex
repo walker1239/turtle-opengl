@@ -1,0 +1,133 @@
+\hypertarget{classarbol__normal}{}\section{Referencia de la Clase arbol\+\_\+normal}
+\label{classarbol__normal}\index{arbol\+\_\+normal@{arbol\+\_\+normal}}
+
+
+La clase \hyperlink{classarbol__normal}{arbol\+\_\+normal} hereda del arbol, estes es un arbol normal y unico. Tambien puede ser modificado.  Las funciones apuntan a las clases de las partes del arbol, asi como tambien son void.  
+
+
+
+
+{\ttfamily \#include $<$builder\+\_\+arbol.\+h$>$}
+
+
+
+Diagrama de herencias de arbol\+\_\+normal
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=152pt]{classarbol__normal__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Diagrama de colaboración para arbol\+\_\+normal\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=297pt]{classarbol__normal__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classarbol__normal_a6f761bf112224d0478b63935a591d91c}{settronco} (int size)
+\item 
+void \hyperlink{classarbol__normal_a21fb8efde2259a78b694a81ecb543a07}{sethojas} (int size)
+\item 
+void \hyperlink{classarbol__normal_a48dbb830f192cf75d87adb80ec23ea7d}{setramas} (int size)
+\item 
+\hyperlink{classtronco}{tronco} $\ast$ \hyperlink{classarbol__normal_a24fdce164b50a74414b6a3d5ad4e99f6}{gettronco} ()
+\item 
+\hyperlink{classhoja}{hoja} $\ast$ \hyperlink{classarbol__normal_a999f324b73ff973d4b5b49e2403c637b}{gethojas} ()
+\item 
+\hyperlink{classrama}{rama} $\ast$ \hyperlink{classarbol__normal_a34c202fa845954e82719d3e86a5a0d9e}{getramas} ()
+\end{DoxyCompactItemize}
+\subsection*{Atributos públicos}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classarbol__normal_adcb741c6f4ed4ec3d6fb5a2b3df936ca}\label{classarbol__normal_adcb741c6f4ed4ec3d6fb5a2b3df936ca}} 
+\hyperlink{classtronco}{tronco} $\ast$ {\bfseries troncos}
+\item 
+\mbox{\Hypertarget{classarbol__normal_a4f210ae92daf183b8f703600853827aa}\label{classarbol__normal_a4f210ae92daf183b8f703600853827aa}} 
+\hyperlink{classhoja}{hoja} $\ast$ {\bfseries hojas}
+\item 
+\mbox{\Hypertarget{classarbol__normal_a238920cdedd1261bcc372cd9b68e8086}\label{classarbol__normal_a238920cdedd1261bcc372cd9b68e8086}} 
+\hyperlink{classrama}{rama} $\ast$ {\bfseries ramas}
+\end{DoxyCompactItemize}
+
+
+\subsection{Descripción detallada}
+La clase \hyperlink{classarbol__normal}{arbol\+\_\+normal} hereda del arbol, estes es un arbol normal y unico. Tambien puede ser modificado.  Las funciones apuntan a las clases de las partes del arbol, asi como tambien son void. 
+
+\subsection{Documentación de las funciones miembro}
+\mbox{\Hypertarget{classarbol__normal_a999f324b73ff973d4b5b49e2403c637b}\label{classarbol__normal_a999f324b73ff973d4b5b49e2403c637b}} 
+\index{arbol\+\_\+normal@{arbol\+\_\+normal}!gethojas@{gethojas}}
+\index{gethojas@{gethojas}!arbol\+\_\+normal@{arbol\+\_\+normal}}
+\subsubsection{\texorpdfstring{gethojas()}{gethojas()}}
+{\footnotesize\ttfamily \hyperlink{classhoja}{hoja} $\ast$ arbol\+\_\+normal\+::gethojas (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+La funcion gethojas es un puntero a tronco, nos permite obtener las caracteristicas de este. 
+
+Implementa \hyperlink{classbuilder_a03de42e8ec33a22c3635a6e946061b70}{builder}.
+
+\mbox{\Hypertarget{classarbol__normal_a34c202fa845954e82719d3e86a5a0d9e}\label{classarbol__normal_a34c202fa845954e82719d3e86a5a0d9e}} 
+\index{arbol\+\_\+normal@{arbol\+\_\+normal}!getramas@{getramas}}
+\index{getramas@{getramas}!arbol\+\_\+normal@{arbol\+\_\+normal}}
+\subsubsection{\texorpdfstring{getramas()}{getramas()}}
+{\footnotesize\ttfamily \hyperlink{classrama}{rama} $\ast$ arbol\+\_\+normal\+::getramas (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+La funcion getramas es un puntero a tronco, nos permite obtener las caracteristicas de este. 
+
+Implementa \hyperlink{classbuilder_a7b811cc1a2cffe9f3601faab0d85627b}{builder}.
+
+\mbox{\Hypertarget{classarbol__normal_a24fdce164b50a74414b6a3d5ad4e99f6}\label{classarbol__normal_a24fdce164b50a74414b6a3d5ad4e99f6}} 
+\index{arbol\+\_\+normal@{arbol\+\_\+normal}!gettronco@{gettronco}}
+\index{gettronco@{gettronco}!arbol\+\_\+normal@{arbol\+\_\+normal}}
+\subsubsection{\texorpdfstring{gettronco()}{gettronco()}}
+{\footnotesize\ttfamily \hyperlink{classtronco}{tronco} $\ast$ arbol\+\_\+normal\+::gettronco (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+La funcion gettronco es un puntero a tronco, nos permite obtener las caracteristicas de este. 
+
+Implementa \hyperlink{classbuilder_af81e62bdfc53bbdad5f1d8edc4b46ecd}{builder}.
+
+\mbox{\Hypertarget{classarbol__normal_a21fb8efde2259a78b694a81ecb543a07}\label{classarbol__normal_a21fb8efde2259a78b694a81ecb543a07}} 
+\index{arbol\+\_\+normal@{arbol\+\_\+normal}!sethojas@{sethojas}}
+\index{sethojas@{sethojas}!arbol\+\_\+normal@{arbol\+\_\+normal}}
+\subsubsection{\texorpdfstring{sethojas()}{sethojas()}}
+{\footnotesize\ttfamily void arbol\+\_\+normal\+::sethojas (\begin{DoxyParamCaption}\item[{int}]{size }\end{DoxyParamCaption})}
+
+La funcion sethojas recibe el tamano. 
+\begin{DoxyParams}{Parámetros}
+{\em size,nos} & permite definir el tamano pedido. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classarbol__normal_a48dbb830f192cf75d87adb80ec23ea7d}\label{classarbol__normal_a48dbb830f192cf75d87adb80ec23ea7d}} 
+\index{arbol\+\_\+normal@{arbol\+\_\+normal}!setramas@{setramas}}
+\index{setramas@{setramas}!arbol\+\_\+normal@{arbol\+\_\+normal}}
+\subsubsection{\texorpdfstring{setramas()}{setramas()}}
+{\footnotesize\ttfamily void arbol\+\_\+normal\+::setramas (\begin{DoxyParamCaption}\item[{int}]{size }\end{DoxyParamCaption})}
+
+La funcion setramas recibe el tamano. 
+\begin{DoxyParams}{Parámetros}
+{\em size,nos} & permite definir el tamano pedido. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classarbol__normal_a6f761bf112224d0478b63935a591d91c}\label{classarbol__normal_a6f761bf112224d0478b63935a591d91c}} 
+\index{arbol\+\_\+normal@{arbol\+\_\+normal}!settronco@{settronco}}
+\index{settronco@{settronco}!arbol\+\_\+normal@{arbol\+\_\+normal}}
+\subsubsection{\texorpdfstring{settronco()}{settronco()}}
+{\footnotesize\ttfamily void arbol\+\_\+normal\+::settronco (\begin{DoxyParamCaption}\item[{int}]{size }\end{DoxyParamCaption})}
+
+La funcion settronco recibe el tamano. 
+\begin{DoxyParams}{Parámetros}
+{\em size,nos} & permite definir el tamano pedido. \\
+\hline
+\end{DoxyParams}
+
+
+La documentación para esta clase fue generada a partir de los siguientes ficheros\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{builder__arbol_8h}{builder\+\_\+arbol.\+h}\item 
+\hyperlink{builder__arbol_8cpp}{builder\+\_\+arbol.\+cpp}\end{DoxyCompactItemize}

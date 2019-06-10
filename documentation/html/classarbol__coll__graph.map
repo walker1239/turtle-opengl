@@ -1,0 +1,5 @@
+<map id="arbol" name="arbol">
+<area shape="rect" id="node2" href="$classrama.html" title="La clase rama contiene la funcion drawn para poder dibujará. &#160;Se instancia el dato miembro..." alt="" coords="5,5,56,32"/>
+<area shape="rect" id="node3" href="$classtronco.html" title="La clase tronco contiene la funcion drawn para poder dibujarlo &#160;Se instancia el dato miembro..." alt="" coords="80,5,139,32"/>
+<area shape="rect" id="node4" href="$classhoja.html" title="La clase hoja contiene la funcion drawn para poder dibujará &#160;Se instancia el dato miembro..." alt="" coords="165,5,211,32"/>
+</map>

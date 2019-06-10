@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['set_5fcolor',['set_color',['../classplano.html#a5758a4e96e2140941dd150e91e6029fd',1,'plano']]]
+  ['move',['move',['../classplano.html#a87e7fce6efc52d9b8c1e0c8946b1c2bb',1,'plano']]]
 ];

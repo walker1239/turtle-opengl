@@ -1,0 +1,5 @@
+<map id="flor" name="flor">
+<area shape="rect" id="node2" href="$classflor__bonita.html" title="La clase flor_bonita es un tipo de flor en la que su dibujo es bonito,contiene la funcion drawn para ..." alt="" coords="5,80,88,107"/>
+<area shape="rect" id="node3" href="$classflor__fea.html" title="La clase flor_fea es un tipo de flor en la que su dibujo es feo,contiene la funcion drawn para poder ..." alt="" coords="113,80,178,107"/>
+<area shape="rect" id="node4" href="$classflor__regular.html" title="La clase flor_regular es un tipo de flor en la que su dibujo es flor_regular,contiene la funcion draw..." alt="" coords="202,80,289,107"/>
+</map>

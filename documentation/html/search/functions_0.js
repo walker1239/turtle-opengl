@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['display',['display',['../classplano.html#aa17e44a9925d265425e883f3bd8c1565',1,'plano']]]
+  ['add_5fcopo',['add_copo',['../classnieve.html#a61ec704dc78cefdb6da47a8d24c59646',1,'nieve']]]
 ];

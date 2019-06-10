@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['forward',['forward',['../classplano.html#a2febab8f233098b881ced3f4553526f2',1,'plano']]]
+  ['clear',['clear',['../classplano.html#af182fef3457cdab6f0b64b41d98b4edf',1,'plano']]]
 ];
